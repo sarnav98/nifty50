@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="keywords" lang="en" content="NIFTY 50, stock exchange, technical analysis, chart analysis, intraday chart, historical stock chart, Delayed Quote, stock quote, index, NIFTY, NSE India Stock Exchange">
     <title>NIFTY 50 | Live Chart, Live Stock Market News</title>
     <meta
       name="description"
@@ -13,6 +14,7 @@
   </head>
   <body>
   <center>
+  <div class="iframe1">
     <iframe
       src="https://in.investing.com/charts/advinion.php?pair_ID=17940&domain_ID=56&lang_ID=56&timezone_ID=23&refresh=6&interval=6&version=6.3.1.0&userId=0&site=nifty50.live"
       width="100%"
@@ -20,8 +22,152 @@
       style="border: 2px solid black"
     >
     </center></iframe>
-    <hr>
-
+</div>
+<hr>
+<center><h2>World Market</h2>
+<div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script
+        type="text/javascript"
+        src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js"
+        async
+      >
+          {
+          "colorTheme": "dark",
+          "dateRange": "1D",
+          "showChart": true,
+          "locale": "in",
+          "largeChartUrl": "",
+          "isTransparent": false,
+          "showSymbolLogo": true,
+          "width": "800",
+          "height": "900",
+          "plotLineColorGrowing": "rgba(25, 118, 210, 1)",
+          "plotLineColorFalling": "rgba(25, 118, 210, 1)",
+          "gridLineColor": "rgba(42, 46, 57, 1)",
+          "scaleFontColor": "rgba(120, 123, 134, 1)",
+          "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
+          "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
+          "symbolActiveColor": "rgba(33, 150, 243, 0.12)",
+          "tabs": [
+            {
+              "title": "Indices",
+              "symbols": [
+                {
+                  "s": "FOREXCOM:SPXUSD",
+                  "d": "S&P 500"
+                },
+                {
+                  "s": "FOREXCOM:NSXUSD",
+                  "d": "Nasdaq 100"
+                },
+                {
+                  "s": "FOREXCOM:DJI",
+                  "d": "Dow 30"
+                },
+                {
+                  "s": "INDEX:NKY",
+                  "d": "Nikkei 225"
+                },
+                {
+                  "s": "INDEX:DEU30",
+                  "d": "DAX Index"
+                },
+                {
+                  "s": "FOREXCOM:UKXGBP",
+                  "d": "FTSE 100"
+                }
+              ],
+              "originalTitle": "Indices"
+            },
+            {
+              "title": "Commodities",
+              "symbols": [
+                {
+                  "s": "CME_MINI:ES1!",
+                  "d": "S&P 500"
+                },
+                {
+                  "s": "CME:6E1!",
+                  "d": "Euro"
+                },
+                {
+                  "s": "COMEX:GC1!",
+                  "d": "Gold"
+                },
+                {
+                  "s": "NYMEX:CL1!",
+                  "d": "Crude Oil"
+                },
+                {
+                  "s": "NYMEX:NG1!",
+                  "d": "Natural Gas"
+                },
+                {
+                  "s": "CBOT:ZC1!",
+                  "d": "Corn"
+                }
+              ],
+              "originalTitle": "Commodities"
+            },
+            {
+              "title": "Bonds",
+              "symbols": [
+                {
+                  "s": "CME:GE1!",
+                  "d": "Eurodollar"
+                },
+                {
+                  "s": "CBOT:ZB1!",
+                  "d": "T-Bond"
+                },
+                {
+                  "s": "CBOT:UB1!",
+                  "d": "Ultra T-Bond"
+                },
+                {
+                  "s": "EUREX:FGBL1!",
+                  "d": "Euro Bund"
+                },
+                {
+                  "s": "EUREX:FBTP1!",
+                  "d": "Euro BTP"
+                },
+                {
+                  "s": "EUREX:FGBM1!",
+                  "d": "Euro BOBL"
+                }
+              ],
+              "originalTitle": "Bonds"
+            },
+            {
+              "title": "Forex",
+              "symbols": [
+                {
+                  "s": "FX:EURUSD"
+                },
+                {
+                  "s": "FX:GBPUSD"
+                },
+                {
+                  "s": "FX:USDJPY"
+                },
+                {
+                  "s": "FX:USDCHF"
+                },
+                {
+                  "s": "FX:AUDUSD"
+                },
+                {
+                  "s": "FX:USDCAD"
+                }
+              ],
+              "originalTitle": "Forex"
+            }
+          ]
+        }
+      </script>
+   </center> </div>
     <script src="" async defer></script>
   </body>
 </html>
