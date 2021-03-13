@@ -20,88 +20,147 @@ body {
   font-weight: 300;
 }
 
-.container {
-  width: 90%;
-  margin: 0 auto;
+/* #RESET
+================================================== */
+* {
+    margin: 0;
+    padding: 0;
 }
 
-header {
-  background: #55d6aa;
+/* #BASE TYPOGRAPHY/STYLING
+================================================== */
+body {
+	  font-family: Helvetica, Arial, sans-serif;
 }
 
-header::after {
+
+/* #CLEARFIX
+================================================== */
+.group:after {
   content: "";
-  display: block;
+  display: table;
   clear: both;
 }
 
-.logo {
-  float: left;
-  margin: 10px 0 10px 0;
+/* #HEADER
+================================================== */
+
+
+header {
+    background: #3279a1;
+    text-align: center;
+    padding: 1.5em 1em 1em 1em;
 }
 
-nav {
-  float: right;
+header #logo a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .05em;
 }
 
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+/* #NAVIGATION
+================================================== */
+
+#mainnav {
+    background: #333;
+    color: #fff;
+    font-weight: bold;
+    text-transform:uppercase;
+    letter-spacing: .05em;
 }
 
-nav li {
-  display: inline-block;
-  margin-left: 70px;
-  padding-top: 40px;
-  position: relative;
+#mainnav #menu {
+    display: none;
+    padding: .8em 1.5em;
+    cursor: pointer;
 }
 
-nav a {
-  color: #444444;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 17px;
+
+#mainnav ul {
+    display: block;
+    margin: 0;
+    text-align: center;
 }
 
-nav a:hover {
-  color: #000000;
+#mainnav ul li {
+    margin: 0;
+    list-style: none;
+    display: inline-block;
 }
 
-nav a::before {
-  content: "";
-  display: block;
-  height: 5px;
-  background-color: #444444;
-  position: absolute;
-  top: 0;
-  width: 0%;
-  transition: all ease-in-out 300ms;
+#mainnav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: .9em 1.5em .8em 1.5em;
 }
 
-nav a:hover::before {
-  width: 100%;
+#mainnav ul li a:hover {
+    color: #000;
+    background: #aaa;
+}
+
+.content {
+	  padding: 1.5em;
+}
+
+
+/* MEDIA QUERIES
+Description: Define screen-size breakpoints here.
+(e.g. Desktop, Tablet, Mobile)
+===================================== */
+
+/* Tablet (Between 768px - 992px)*/
+@media all and (min-width: 768px) and (max-width: 992px) {
+
+}
+
+/* MOBILE (Smaller than 768px)*/
+@media all and (max-width: 767px) {
+	
+    #mainnav #menu {
+        display: block;
+    }
+
+    #mainnav ul {
+        display: none;
+        background: #666;
+        padding: 1em;
+        text-align: left;
+    }
+    #mainnav ul li {
+        display: block;
+    }
+
+    #mainnav ul li a {
+        display: block;
+        padding: .75em 1.5em .5em 1.5em;
+    }
+
 }
 
     </style>
   </head>
   <body>
     <header>
-    <div class="container">
-      <img src="https://www.imgonline.com.ua/result_img/imgonline-com-ua-resize-hy4WpSTcM7OHBf.png" alt="logo" class="logo" />
-      <nav>
+      <img src="https://srv2.imgonline.com.ua/result_img/imgonline-com-ua-resize-DJBn1SmXKD1.png" alt="logo" class="logo" />
+    </header>
+    
+    <nav id="mainnav" class="group">
+        <div id="menu">&#x2261; Menu</div>
         <ul>
-          <li><a href="https://nifty50.live/">Home</a></li>
-          <li><a href="#">Live Charts</a></li>
-          <li><a href="#">Market News</a></li>
-          <li><a href="#">International Market</a></li>
-          <!--<li><a href="#">Contact</a></li>-->
-        </ul>
-      </nav>
-    </div>
-  </header>
+              <li><a href="https://nifty50.live/">Home</a></li>
+              <li><a href="#">Live Charts</a></li>
+              <li><a href="#">Market News</a></li>
+              <li><a href="#">International Market</a></li>
+              <!--<li><a href="#">Contact</a></li>-->
+            </ul>
+    </nav>    
   <center>
+    <br>
     <h2 class="red-text" style="color: red;">NIFTY50 CHART</h2>
+    <br>
   <div class="iframe1">
     <iframe
       src="https://in.investing.com/charts/advinion.php?pair_ID=17940&domain_ID=56&lang_ID=56&timezone_ID=23&refresh=6&interval=6&version=6.3.1.0&userId=0&site=nifty50.live"
@@ -112,7 +171,10 @@ nav a:hover::before {
     </center></iframe>
 </div>
 <hr>
-<center><h2 class="red-text" style="color: red;">WORLD MARKET</h2>
+<center>
+  <br>
+<h2 class="red-text" style="color: red;">WORLD MARKET</h2>
+<br>
 <div class="tradingview-widget-container">
       <div class="tradingview-widget-container__widget"></div>
       <script
@@ -257,7 +319,9 @@ nav a:hover::before {
       </script>
    </center> </div>
    <hr>
+   <br>
    <h2 class="red-text" style="color: red;">MARKET DATA</h2>
+   <br>
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
@@ -387,6 +451,22 @@ nav a:hover::before {
 }
   </script>
 </div>
-    <script src="" async defer></script>
+    <script>
+      $(document).ready(function() {
+	   
+     // JQUERY NAV TOGGLE
+     $('#menu').bind('click',function(event){
+         $('#mainnav ul').slideToggle();
+     });
+
+     $(window).resize(function(){  
+         var w = $(window).width();  
+         if(w > 768) {  
+             $('#mainnav ul').removeAttr('style');  
+         }  
+     });
+   
+ });
+    </script>
   </body>
 </html>
