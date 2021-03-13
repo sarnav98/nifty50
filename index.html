@@ -10,7 +10,7 @@
       content="India's most trusted website for Charts, Live Stock Market News, real-time chart Nifty 50."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--<link rel="stylesheet" href="./styles.css" /> -->
+    <!--<link type="text/css" rel="stylesheet" href="styles.css" /> -->
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 body {
@@ -144,7 +144,7 @@ Description: Define screen-size breakpoints here.
   </head>
   <body>
     <header>
-      <img src="https://srv2.imgonline.com.ua/result_img/imgonline-com-ua-resize-DJBn1SmXKD1.png" alt="logo" class="logo" />
+      <img src="/logo.png" alt="logo" class="logo" />
     </header>
     
     <nav id="mainnav" class="group">
@@ -451,22 +451,7 @@ Description: Define screen-size breakpoints here.
 }
   </script>
 </div>
-    <script>
-      $(document).ready(function() {
-	   
-     // JQUERY NAV TOGGLE
-     $('#menu').bind('click',function(event){
-         $('#mainnav ul').slideToggle();
-     });
-
-     $(window).resize(function(){  
-         var w = $(window).width();  
-         if(w > 768) {  
-             $('#mainnav ul').removeAttr('style');  
-         }  
-     });
-   
- });
+<script type="text/javascript" src="/script.js">
     </script>
   </body>
 </html>
