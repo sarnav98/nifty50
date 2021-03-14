@@ -4,12 +4,20 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://nifty50.live/</loc>
   <lastmod>2021-03-14T13:15:20+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>1.0</priority>
+</url>
+      
+<url>
+  <loc>https://nifty50.live/international/</loc>
+  <lastmod>2021-03-14T13:15:20+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.8</priority>
 </url>
 
 
