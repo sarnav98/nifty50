@@ -1,157 +1,152 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="keywords" lang="en" content="NIFTY 50, stock exchange, technical analysis, chart analysis, intraday chart, historical stock chart, Delayed Quote, stock quote, index, NIFTY, NSE India Stock Exchange">
-    <title>NIFTY 50 | Live Chart, Live Stock Market News</title>
-    <link rel="icon" type="image/png" href="/favicon.png"/>
-    <meta
-      name="description"
-      content="India's most trusted website for Charts, Live Stock Market News, real-time chart Nifty 50."
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168027819-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-168027819-2');
-</script>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="keywords" lang="en" content="NIFTY 50, stock exchange, technical analysis, chart analysis, intraday chart, historical stock chart, Delayed Quote, stock quote, index, NIFTY, NSE India Stock Exchange">
+	<title>NIFTY 50 | Live Chart, Live Stock Market News</title>
+	<link rel="icon" type="image/png" href="/favicon.png" />
+	<meta name="description" content="India's most trusted website for Charts, Live Stock Market News, real-time chart Nifty 50." />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168027819-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		
+		  gtag('config', 'UA-168027819-2');
+	</script>
+	<!--<link type="text/css" rel="stylesheet" href="styles.css" /> -->
+	<style>
+		@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+		body {
+		  margin: 0;
+		  background: #222222;
+		  font-family: Helvetica, Arial, sans-serif;;
+		  font-weight: 300;
+		}
+		
+		/* #RESET
+		================================================== */
+		* {
+		    margin: 0;
+		    padding: 0;
+		}
+		
+		
+		/* #CLEARFIX
+		================================================== */
+		.group:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+		
+		/* #HEADER
+		================================================== */
+		
+		
+		header {
+		    background: #3279a1;
+		    text-align: center;
+		}
+		
+		header #logo a {
+		    color: #fff;
+		    text-decoration: none;
+		    text-transform: uppercase;
+		    letter-spacing: .05em;
+		}
+		
+		/* #NAVIGATION
+		================================================== */
+		
+		#mainnav {
+		    background: #333;
+		    color: #fff;
+		    font-weight: bold;
+		    text-transform:uppercase;
+		    letter-spacing: .05em;
+		}
+		
+		#mainnav #menu {
+		    display: none;
+		    padding: .8em 1.5em;
+		    cursor: pointer;
+		}
+		
+		
+		#mainnav ul {
+		    display: block;
+		    margin: 0;
+		    text-align: center;
+		}
+		
+		#mainnav ul li {
+		    margin: 0;
+		    list-style: none;
+		    display: inline-block;
+		}
+		
+		#mainnav ul li a {
+		    color: #fff;
+		    text-decoration: none;
+		    display: inline-block;
+		    padding: .9em 1.5em .8em 1.5em;
+		}
+		
+		#mainnav ul li a:hover {
+		    color: #000;
+		    background: #aaa;
+		}
+		
+		.content {
+			  padding: 1.5em;
+		}
+		
+		
+		/* MEDIA QUERIES
+		Description: Define screen-size breakpoints here.
+		(e.g. Desktop, Tablet, Mobile)
+		===================================== */
+		
+		/* Tablet (Between 768px - 992px)*/
+		@media all and (min-width: 768px) and (max-width: 992px) {
+		
+		}
+		
+		/* MOBILE (Smaller than 768px)*/
+		@media all and (max-width: 767px) {
+			
+		    #mainnav #menu {
+		        display: block;
+		    }
+		
+		    #mainnav ul {
+		        display: none;
+		        background: #666;
+		        padding: 1em;
+		        text-align: left;
+		    }
+		    #mainnav ul li {
+		        display: block;
+		    }
+		
+		    #mainnav ul li a {
+		        display: block;
+		        padding: .75em 1.5em .5em 1.5em;
+		    }
+		
+		}
+	</style>
+</head>
 
-    <!--<link type="text/css" rel="stylesheet" href="styles.css" /> -->
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
-body {
-  margin: 0;
-  background: #222222;
-  font-family: Helvetica, Arial, sans-serif;;
-  font-weight: 300;
-}
-
-/* #RESET
-================================================== */
-* {
-    margin: 0;
-    padding: 0;
-}
-
-
-/* #CLEARFIX
-================================================== */
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* #HEADER
-================================================== */
-
-
-header {
-    background: #3279a1;
-    text-align: center;
-}
-
-header #logo a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: .05em;
-}
-
-/* #NAVIGATION
-================================================== */
-
-#mainnav {
-    background: #333;
-    color: #fff;
-    font-weight: bold;
-    text-transform:uppercase;
-    letter-spacing: .05em;
-}
-
-#mainnav #menu {
-    display: none;
-    padding: .8em 1.5em;
-    cursor: pointer;
-}
-
-
-#mainnav ul {
-    display: block;
-    margin: 0;
-    text-align: center;
-}
-
-#mainnav ul li {
-    margin: 0;
-    list-style: none;
-    display: inline-block;
-}
-
-#mainnav ul li a {
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
-    padding: .9em 1.5em .8em 1.5em;
-}
-
-#mainnav ul li a:hover {
-    color: #000;
-    background: #aaa;
-}
-
-.content {
-	  padding: 1.5em;
-}
-
-
-/* MEDIA QUERIES
-Description: Define screen-size breakpoints here.
-(e.g. Desktop, Tablet, Mobile)
-===================================== */
-
-/* Tablet (Between 768px - 992px)*/
-@media all and (min-width: 768px) and (max-width: 992px) {
-
-}
-
-/* MOBILE (Smaller than 768px)*/
-@media all and (max-width: 767px) {
-	
-    #mainnav #menu {
-        display: block;
-    }
-
-    #mainnav ul {
-        display: none;
-        background: #666;
-        padding: 1em;
-        text-align: left;
-    }
-    #mainnav ul li {
-        display: block;
-    }
-
-    #mainnav ul li a {
-        display: block;
-        padding: .75em 1.5em .5em 1.5em;
-    }
-
-}
-
-    </style>
-  </head>
-  <body>
-    <header>
-      <img src="/logo_nifty50live.png" alt="logo" class="logo" />
-    </header>
-
-    <!--<nav id="mainnav" class="group">
+<body>
+	<header>
+		<img src="/logo_nifty50live.png" alt="logo" class="logo" />
+	</header>
+	<!--<nav id="mainnav" class="group">
         <div id="menu">&#x2261; Menu</div>
         <ul>
               <li><a href="https://nifty50.live/">Home</a></li>
@@ -159,544 +154,546 @@ Description: Define screen-size breakpoints here.
               <li><a href="#">Market News</a></li>
               <li><a href="#">International Market</a></li>
             </ul>
-    </nav>   --> 
-  <center>
-    <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-  {
-  "symbols": [
-    {
-      "proName": "FOREXCOM:SPXUSD",
-      "title": "S&P 500"
-    },
-    {
-      "proName": "FOREXCOM:NSXUSD",
-      "title": "Nasdaq 100"
-    },
-    {
-      "description": "NIFTY 50",
-      "proName": "NSE:NIFTY"
-    },
-    {
-      "description": "SENSEX",
-      "proName": "BSE:SENSEX"
-    },
-    {
-      "description": "NIFTY BANK",
-      "proName": "NSE:BANKNIFTY"
-    },
-    {
-      "description": "DOW JONES",
-      "proName": "DJCFD:DJI"
-    },
-    {
-      "description": "ATX",
-      "proName": "INDEX:ATX"
-    },
-    {
-      "description": "BOSVESPA",
-      "proName": "BMFBOVESPA:IBOV"
-    },
-    {
-      "description": "DAX",
-      "proName": "XETR:DAX"
-    },
-    {
-      "description": "EURO STOXX 50",
-      "proName": "CURRENCYCOM:EU50"
-    },
-    {
-      "description": "NIKKEI 225",
-      "proName": "TVC:NI225"
-    },
-    {
-      "description": "SMI",
-      "proName": "SIX:SMI"
-    }
-  ],
-  "showSymbolLogo": true,
-  "colorTheme": "dark",
-  "isTransparent": false,
-  "displayMode": "adaptive",
-  "locale": "in"
-}
-  </script>
-</div>
-    <br>
-    <h2 class="red-text" style="color: red;">NIFTY50 CHART</h2>
-    <br>
-  <div class="iframe1">
-    <iframe frameborder="0" scrolling="no" src="https://in.investing.com/charts/advinion.php?pair_ID=17940&domain_ID=56&lang_ID=56&timezone_ID=23&refresh=6&interval=6&version=6.3.1.0&userId=0&site=nifty50.live" style="background-color: white; border: solid 1px #00B4FF; color: black; padding-top: 8px;" height="560" width="100%"></center></iframe>
-</div>
-<hr>
-<br>
-<h2 class="red-text" style="color: red;">BANK NIFTY CHART</h2>
-<br>
-<div class="iframe2">
-    <iframe frameborder="0" scrolling="no" src="https://in.investing.com/charts/advinion.php?pair_ID=17950&domain_ID=56&lang_ID=56&timezone_ID=23&refresh=6&interval=6&version=6.3.1.0&userId=0&site=nifty50.live" style="background-color: white; border: solid 1px #00B4FF; color: black; padding-top: 8px;" height="560" width="100%"></iframe>
-</div>
-    <br>
-    <h2 class="red-text" style="color: red;">SGX NIFTY CHART</h2>
-    <br>
-  <div class="iframe3">
-    <iframe frameborder="0" scrolling="no" src="https://in.investing.com/charts/advinion.php?pair_ID=8985&domain_ID=56&lang_ID=56&timezone_ID=23&refresh=6&interval=6&version=6.3.1.0&userId=0&site=nifty50.live" style="background-color: white; border: solid 1px #00B4FF; color: black; padding-top: 8px;" height="560" width="100%"></center></iframe>
-</div>
-<center>
-  <br>
-<h2 class="red-text" style="color: red;">WORLD MARKET</h2>
-<br>
-<div class="tradingview-widget-container">
-      <div class="tradingview-widget-container__widget"></div>
-      <script
-        type="text/javascript"
-        src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js"
-        async
-      >
-          {
-          "colorTheme": "dark",
-          "dateRange": "1D",
-          "showChart": true,
-          "locale": "in",
-          "largeChartUrl": "",
-          "isTransparent": false,
-          "showSymbolLogo": true,
-          "width": "100%",
-          "height": "650",
-          "plotLineColorGrowing": "rgba(25, 118, 210, 1)",
-          "plotLineColorFalling": "rgba(25, 118, 210, 1)",
-          "gridLineColor": "rgba(42, 46, 57, 1)",
-          "scaleFontColor": "rgba(120, 123, 134, 1)",
-          "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
-          "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
-          "symbolActiveColor": "rgba(33, 150, 243, 0.12)",
-          "tabs": [
-            {
-              "title": "Indices",
-              "symbols": [
-                {
-                  "s": "FOREXCOM:SPXUSD",
-                  "d": "S&P 500"
-                },
-                {
-                  "s": "FOREXCOM:NSXUSD",
-                  "d": "Nasdaq 100"
-                },
-                {
-                  "s": "FOREXCOM:DJI",
-                  "d": "Dow 30"
-                },
-                {
-                  "s": "INDEX:NKY",
-                  "d": "Nikkei 225"
-                },
-                {
-                  "s": "INDEX:DEU30",
-                  "d": "DAX Index"
-                },
-                {
-                  "s": "FOREXCOM:UKXGBP",
-                  "d": "FTSE 100"
-                }
-              ],
-              "originalTitle": "Indices"
-            },
-            {
-              "title": "Commodities",
-              "symbols": [
-                {
-                  "s": "CME_MINI:ES1!",
-                  "d": "S&P 500"
-                },
-                {
-                  "s": "CME:6E1!",
-                  "d": "Euro"
-                },
-                {
-                  "s": "COMEX:GC1!",
-                  "d": "Gold"
-                },
-                {
-                  "s": "NYMEX:CL1!",
-                  "d": "Crude Oil"
-                },
-                {
-                  "s": "NYMEX:NG1!",
-                  "d": "Natural Gas"
-                },
-                {
-                  "s": "CBOT:ZC1!",
-                  "d": "Corn"
-                }
-              ],
-              "originalTitle": "Commodities"
-            },
-            {
-              "title": "Bonds",
-              "symbols": [
-                {
-                  "s": "CME:GE1!",
-                  "d": "Eurodollar"
-                },
-                {
-                  "s": "CBOT:ZB1!",
-                  "d": "T-Bond"
-                },
-                {
-                  "s": "CBOT:UB1!",
-                  "d": "Ultra T-Bond"
-                },
-                {
-                  "s": "EUREX:FGBL1!",
-                  "d": "Euro Bund"
-                },
-                {
-                  "s": "EUREX:FBTP1!",
-                  "d": "Euro BTP"
-                },
-                {
-                  "s": "EUREX:FGBM1!",
-                  "d": "Euro BOBL"
-                }
-              ],
-              "originalTitle": "Bonds"
-            },
-            {
-              "title": "Forex",
-              "symbols": [
-                {
-                  "s": "FX:EURUSD"
-                },
-                {
-                  "s": "FX:GBPUSD"
-                },
-                {
-                  "s": "FX:USDJPY"
-                },
-                {
-                  "s": "FX:USDCHF"
-                },
-                {
-                  "s": "FX:AUDUSD"
-                },
-                {
-                  "s": "FX:USDCAD"
-                }
-              ],
-              "originalTitle": "Forex"
-            }
-          ]
-        }
-      </script>
-   </center> </div>
-   <hr>
-   <br>
-   <h2 class="red-text" style="color: red;">MARKET DATA</h2>
-   <br>
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
-  {
-  "width": "100%",
-  "height": "1150",
-  "symbolsGroups": [
-    {
-      "name": "Indices",
-      "originalName": "Indices",
-      "symbols": [
-        {
-          "name": "FOREXCOM:SPXUSD",
-          "displayName": "S&P 500"
-        },
-        {
-          "name": "FOREXCOM:NSXUSD",
-          "displayName": "Nasdaq 100"
-        },
-        {
-          "name": "FOREXCOM:DJI",
-          "displayName": "Dow 30"
-        },
-        {
-          "name": "INDEX:NKY",
-          "displayName": "Nikkei 225"
-        },
-        {
-          "name": "INDEX:DEU30",
-          "displayName": "DAX Index"
-        },
-        {
-          "name": "FOREXCOM:UKXGBP",
-          "displayName": "FTSE 100"
-        }
-      ]
-    },
-    {
-      "name": "Commodities",
-      "originalName": "Commodities",
-      "symbols": [
-        {
-          "name": "CME_MINI:ES1!",
-          "displayName": "S&P 500"
-        },
-        {
-          "name": "CME:6E1!",
-          "displayName": "Euro"
-        },
-        {
-          "name": "COMEX:GC1!",
-          "displayName": "Gold"
-        },
-        {
-          "name": "NYMEX:CL1!",
-          "displayName": "Crude Oil"
-        },
-        {
-          "name": "NYMEX:NG1!",
-          "displayName": "Natural Gas"
-        },
-        {
-          "name": "CBOT:ZC1!",
-          "displayName": "Corn"
-        }
-      ]
-    },
-    {
-      "name": "Bonds",
-      "originalName": "Bonds",
-      "symbols": [
-        {
-          "name": "CME:GE1!",
-          "displayName": "Eurodollar"
-        },
-        {
-          "name": "CBOT:ZB1!",
-          "displayName": "T-Bond"
-        },
-        {
-          "name": "CBOT:UB1!",
-          "displayName": "Ultra T-Bond"
-        },
-        {
-          "name": "EUREX:FGBL1!",
-          "displayName": "Euro Bund"
-        },
-        {
-          "name": "EUREX:FBTP1!",
-          "displayName": "Euro BTP"
-        },
-        {
-          "name": "EUREX:FGBM1!",
-          "displayName": "Euro BOBL"
-        }
-      ]
-    },
-    {
-      "name": "Forex",
-      "originalName": "Forex",
-      "symbols": [
-        {
-          "name": "FX:EURUSD"
-        },
-        {
-          "name": "FX:GBPUSD"
-        },
-        {
-          "name": "FX:USDJPY"
-        },
-        {
-          "name": "FX:USDCHF"
-        },
-        {
-          "name": "FX:AUDUSD"
-        },
-        {
-          "name": "FX:USDCAD"
-        }
-      ]
-    }
-  ],
-  "showSymbolLogo": true,
-  "colorTheme": "dark",
-  "isTransparent": false,
-  "locale": "in"
-}
-  </script>
-</div>
-<hr>
-   <br>
-   <h2 class="red-text" style="color: red;">TOP GAINERS & LOOSERS</h2>
-   <br>
-   <center>
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
-  {
-  "colorTheme": "dark",
-  "dateRange": "1D",
-  "exchange": "BSE",
-  "showChart": true,
-  "locale": "in",
-  "largeChartUrl": "",
-  "isTransparent": false,
-  "showSymbolLogo": true,
-  "width": "100%",
-  "height": "900",
-  "plotLineColorGrowing": "rgba(25, 118, 210, 1)",
-  "plotLineColorFalling": "rgba(25, 118, 210, 1)",
-  "gridLineColor": "rgba(42, 46, 57, 1)",
-  "scaleFontColor": "rgba(120, 123, 134, 1)",
-  "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
-  "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
-  "symbolActiveColor": "rgba(33, 150, 243, 0.12)"
-}
-  </script>
-  </center>
-</div>
-<hr>
-   <br>
-   <h2 class="red-text" style="color: red;">FOREX HEATMAP</h2>
-   <br>
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-forex-heat-map.js" async>
-  {
-  "width": "100%",
-  "height": "900",
-  "currencies": [
-    "EUR",
-    "USD",
-    "JPY",
-    "GBP",
-    "CHF",
-    "AUD",
-    "CAD",
-    "NZD",
-    "CNY",
-    "TRY",
-    "SEK",
-    "NOK",
-    "DKK",
-    "ZAR",
-    "HKD",
-    "SGD",
-    "THB",
-    "MXN",
-    "IDR",
-    "KRW",
-    "PLN",
-    "ISK",
-    "KWD",
-    "PHP",
-    "MYR",
-    "INR",
-    "TWD",
-    "SAR",
-    "AED",
-    "RUB",
-    "ILS",
-    "ARS",
-    "CLP",
-    "COP",
-    "PEN",
-    "UYU"
-  ],
-  "isTransparent": false,
-  "colorTheme": "dark",
-  "locale": "in"
-}
-  </script>
-</div>
-<hr>
-   <br>
-   <h2 class="red-text" style="color: red;">STOCK SCREENER</h2>
-   <br>
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
-  {
-  "width": "100%",
-  "height": "650",
-  "defaultColumn": "overview",
-  "defaultScreen": "most_capitalized",
-  "showToolbar": true,
-  "locale": "in",
-  "market": "us",
-  "colorTheme": "dark"
-}
-  </script>
-</div>
-<hr>
-<br>
-   <h2 class="red-text" style="color: red;">TOP 10 STOCKS</h2>
-   <br>
-   <div class="tradingview-widget-container">
-  <div id="tradingview_33f41"></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-  <script type="text/javascript">
-  new TradingView.MediumWidget(
-  {
-  "symbols": [
-    [
-      "Reliance",
-      "BSE:RELIANCE|12M"
-    ],
-    [
-      "TCS",
-      "BSE:TCS|12M"
-    ],
-    [
-      "HDFC Bank",
-      "BSE:HDFCBANK|12M"
-    ],
-    [
-      "Infosys",
-      "BSE:INFY|12M"
-    ],
-    [
-      "Hindustan Unilever",
-      "BSE:HINDUNILVR|12M"
-    ],
-    [
-      "HDFC",
-      "BSE:HDFC|12M"
-    ],
-    [
-      "ICICI Bank",
-      "BSE:ICICIBANK|12M"
-    ],
-    [
-      "Kotak Mahindra Bank",
-      "BSE:KOTAKBANK|12M"
-    ],
-    [
-      "SBI",
-      "BSE:SBIN|12M"
-    ],
-    [
-      "Bajaj Finance",
-      "BSE:BAJFINANCE|12M"
-    ]
-  ],
-  "chartOnly": false,
-  "width": "100%",
-  "height": "650",
-  "locale": "in",
-  "colorTheme": "dark",
-  "gridLineColor": "#2A2E39",
-  "trendLineColor": "#1976D2",
-  "fontColor": "#787B86",
-  "underLineColor": "rgba(55, 166, 239, 0.15)",
-  "isTransparent": false,
-  "autosize": false,
-  "container_id": "tradingview_33f41"
-}
-  );
-  </script>
-</div>
-<br>
-<div class="tradingview-widget-copyright"><a href="https://nifty50.live/" rel="noopener" target="_blank"><span class="blue-text">Nifty50.Live</span></a> | All Rights Reserved</div>
-<script type="text/javascript" src="/script.js">
-    </script>
-  </body>
+    </nav>   -->
+	<center>
+		<div class="tradingview-widget-container">
+			<div class="tradingview-widget-container__widget"></div>
+			<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+				{
+				  "symbols": [
+				    {
+				      "proName": "FOREXCOM:SPXUSD",
+				      "title": "S&P 500"
+				    },
+				    {
+				      "proName": "FOREXCOM:NSXUSD",
+				      "title": "Nasdaq 100"
+				    },
+				    {
+				      "description": "NIFTY 50",
+				      "proName": "NSE:NIFTY"
+				    },
+				    {
+				      "description": "SENSEX",
+				      "proName": "BSE:SENSEX"
+				    },
+				    {
+				      "description": "NIFTY BANK",
+				      "proName": "NSE:BANKNIFTY"
+				    },
+				    {
+				      "description": "DOW JONES",
+				      "proName": "DJCFD:DJI"
+				    },
+				    {
+				      "description": "ATX",
+				      "proName": "INDEX:ATX"
+				    },
+				    {
+				      "description": "BOSVESPA",
+				      "proName": "BMFBOVESPA:IBOV"
+				    },
+				    {
+				      "description": "DAX",
+				      "proName": "XETR:DAX"
+				    },
+				    {
+				      "description": "EURO STOXX 50",
+				      "proName": "CURRENCYCOM:EU50"
+				    },
+				    {
+				      "description": "NIKKEI 225",
+				      "proName": "TVC:NI225"
+				    },
+				    {
+				      "description": "SMI",
+				      "proName": "SIX:SMI"
+				    }
+				  ],
+				  "showSymbolLogo": true,
+				  "colorTheme": "dark",
+				  "isTransparent": false,
+				  "displayMode": "adaptive",
+				  "locale": "in"
+				}
+			</script>
+		</div>
+		<br>
+		<h2 class="red-text" style="color: red;">NIFTY50 CHART</h2>
+		<br>
+		<div class="iframe1">
+			<iframe frameborder="0" scrolling="no" src="https://in.investing.com/charts/advinion.php?pair_ID=17940&domain_ID=56&lang_ID=56&timezone_ID=23&refresh=6&interval=6&version=6.3.1.0&userId=0&site=nifty50.live" style="background-color: white; border: solid 1px #00B4FF; color: black; padding-top: 8px;" height="560" width="100%">
+	</center>
+	</iframe>
+	</div>
+	<hr>
+	<br>
+	<h2 class="red-text" style="color: red;">BANK NIFTY CHART</h2>
+	<br>
+	<div class="iframe2">
+		<iframe frameborder="0" scrolling="no" src="https://in.investing.com/charts/advinion.php?pair_ID=17950&domain_ID=56&lang_ID=56&timezone_ID=23&refresh=6&interval=6&version=6.3.1.0&userId=0&site=nifty50.live" style="background-color: white; border: solid 1px #00B4FF; color: black; padding-top: 8px;" height="560" width="100%"></iframe>
+	</div>
+	<br>
+	<h2 class="red-text" style="color: red;">SGX NIFTY CHART</h2>
+	<br>
+	<div class="iframe3">
+		<iframe frameborder="0" scrolling="no" src="https://in.investing.com/charts/advinion.php?pair_ID=8985&domain_ID=56&lang_ID=56&timezone_ID=23&refresh=6&interval=6&version=6.3.1.0&userId=0&site=nifty50.live" style="background-color: white; border: solid 1px #00B4FF; color: black; padding-top: 8px;" height="560" width="100%">
+			</center>
+		</iframe>
+	</div>
+  <!--https://in.investing.com/charts/advinion.php?pair_ID=17942&domain_ID=56&lang_ID=56&timezone_ID=23&refresh=6&interval=6&version=6.3.1.0&userId=0&site=nifty50.live // INDIAVIX-->
+	<center>
+		<br>
+		<h2 class="red-text" style="color: red;">WORLD MARKET</h2>
+		<br>
+		<div class="tradingview-widget-container">
+			<div class="tradingview-widget-container__widget"></div>
+			<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+				{
+				          "colorTheme": "dark",
+				          "dateRange": "1D",
+				          "showChart": true,
+				          "locale": "in",
+				          "largeChartUrl": "",
+				          "isTransparent": false,
+				          "showSymbolLogo": true,
+				          "width": "100%",
+				          "height": "650",
+				          "plotLineColorGrowing": "rgba(25, 118, 210, 1)",
+				          "plotLineColorFalling": "rgba(25, 118, 210, 1)",
+				          "gridLineColor": "rgba(42, 46, 57, 1)",
+				          "scaleFontColor": "rgba(120, 123, 134, 1)",
+				          "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
+				          "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
+				          "symbolActiveColor": "rgba(33, 150, 243, 0.12)",
+				          "tabs": [
+				            {
+				              "title": "Indices",
+				              "symbols": [
+				                {
+				                  "s": "FOREXCOM:SPXUSD",
+				                  "d": "S&P 500"
+				                },
+				                {
+				                  "s": "FOREXCOM:NSXUSD",
+				                  "d": "Nasdaq 100"
+				                },
+				                {
+				                  "s": "FOREXCOM:DJI",
+				                  "d": "Dow 30"
+				                },
+				                {
+				                  "s": "INDEX:NKY",
+				                  "d": "Nikkei 225"
+				                },
+				                {
+				                  "s": "INDEX:DEU30",
+				                  "d": "DAX Index"
+				                },
+				                {
+				                  "s": "FOREXCOM:UKXGBP",
+				                  "d": "FTSE 100"
+				                }
+				              ],
+				              "originalTitle": "Indices"
+				            },
+				            {
+				              "title": "Commodities",
+				              "symbols": [
+				                {
+				                  "s": "CME_MINI:ES1!",
+				                  "d": "S&P 500"
+				                },
+				                {
+				                  "s": "CME:6E1!",
+				                  "d": "Euro"
+				                },
+				                {
+				                  "s": "COMEX:GC1!",
+				                  "d": "Gold"
+				                },
+				                {
+				                  "s": "NYMEX:CL1!",
+				                  "d": "Crude Oil"
+				                },
+				                {
+				                  "s": "NYMEX:NG1!",
+				                  "d": "Natural Gas"
+				                },
+				                {
+				                  "s": "CBOT:ZC1!",
+				                  "d": "Corn"
+				                }
+				              ],
+				              "originalTitle": "Commodities"
+				            },
+				            {
+				              "title": "Bonds",
+				              "symbols": [
+				                {
+				                  "s": "CME:GE1!",
+				                  "d": "Eurodollar"
+				                },
+				                {
+				                  "s": "CBOT:ZB1!",
+				                  "d": "T-Bond"
+				                },
+				                {
+				                  "s": "CBOT:UB1!",
+				                  "d": "Ultra T-Bond"
+				                },
+				                {
+				                  "s": "EUREX:FGBL1!",
+				                  "d": "Euro Bund"
+				                },
+				                {
+				                  "s": "EUREX:FBTP1!",
+				                  "d": "Euro BTP"
+				                },
+				                {
+				                  "s": "EUREX:FGBM1!",
+				                  "d": "Euro BOBL"
+				                }
+				              ],
+				              "originalTitle": "Bonds"
+				            },
+				            {
+				              "title": "Forex",
+				              "symbols": [
+				                {
+				                  "s": "FX:EURUSD"
+				                },
+				                {
+				                  "s": "FX:GBPUSD"
+				                },
+				                {
+				                  "s": "FX:USDJPY"
+				                },
+				                {
+				                  "s": "FX:USDCHF"
+				                },
+				                {
+				                  "s": "FX:AUDUSD"
+				                },
+				                {
+				                  "s": "FX:USDCAD"
+				                }
+				              ],
+				              "originalTitle": "Forex"
+				            }
+				          ]
+				        }
+			</script>
+	</center>
+	</div>
+	<hr>
+	<br>
+	<h2 class="red-text" style="color: red;">MARKET DATA</h2>
+	<br>
+	<div class="tradingview-widget-container">
+		<div class="tradingview-widget-container__widget"></div>
+		<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+			{
+			  "width": "100%",
+			  "height": "1150",
+			  "symbolsGroups": [
+			    {
+			      "name": "Indices",
+			      "originalName": "Indices",
+			      "symbols": [
+			        {
+			          "name": "FOREXCOM:SPXUSD",
+			          "displayName": "S&P 500"
+			        },
+			        {
+			          "name": "FOREXCOM:NSXUSD",
+			          "displayName": "Nasdaq 100"
+			        },
+			        {
+			          "name": "FOREXCOM:DJI",
+			          "displayName": "Dow 30"
+			        },
+			        {
+			          "name": "INDEX:NKY",
+			          "displayName": "Nikkei 225"
+			        },
+			        {
+			          "name": "INDEX:DEU30",
+			          "displayName": "DAX Index"
+			        },
+			        {
+			          "name": "FOREXCOM:UKXGBP",
+			          "displayName": "FTSE 100"
+			        }
+			      ]
+			    },
+			    {
+			      "name": "Commodities",
+			      "originalName": "Commodities",
+			      "symbols": [
+			        {
+			          "name": "CME_MINI:ES1!",
+			          "displayName": "S&P 500"
+			        },
+			        {
+			          "name": "CME:6E1!",
+			          "displayName": "Euro"
+			        },
+			        {
+			          "name": "COMEX:GC1!",
+			          "displayName": "Gold"
+			        },
+			        {
+			          "name": "NYMEX:CL1!",
+			          "displayName": "Crude Oil"
+			        },
+			        {
+			          "name": "NYMEX:NG1!",
+			          "displayName": "Natural Gas"
+			        },
+			        {
+			          "name": "CBOT:ZC1!",
+			          "displayName": "Corn"
+			        }
+			      ]
+			    },
+			    {
+			      "name": "Bonds",
+			      "originalName": "Bonds",
+			      "symbols": [
+			        {
+			          "name": "CME:GE1!",
+			          "displayName": "Eurodollar"
+			        },
+			        {
+			          "name": "CBOT:ZB1!",
+			          "displayName": "T-Bond"
+			        },
+			        {
+			          "name": "CBOT:UB1!",
+			          "displayName": "Ultra T-Bond"
+			        },
+			        {
+			          "name": "EUREX:FGBL1!",
+			          "displayName": "Euro Bund"
+			        },
+			        {
+			          "name": "EUREX:FBTP1!",
+			          "displayName": "Euro BTP"
+			        },
+			        {
+			          "name": "EUREX:FGBM1!",
+			          "displayName": "Euro BOBL"
+			        }
+			      ]
+			    },
+			    {
+			      "name": "Forex",
+			      "originalName": "Forex",
+			      "symbols": [
+			        {
+			          "name": "FX:EURUSD"
+			        },
+			        {
+			          "name": "FX:GBPUSD"
+			        },
+			        {
+			          "name": "FX:USDJPY"
+			        },
+			        {
+			          "name": "FX:USDCHF"
+			        },
+			        {
+			          "name": "FX:AUDUSD"
+			        },
+			        {
+			          "name": "FX:USDCAD"
+			        }
+			      ]
+			    }
+			  ],
+			  "showSymbolLogo": true,
+			  "colorTheme": "dark",
+			  "isTransparent": false,
+			  "locale": "in"
+			}
+		</script>
+	</div>
+	<hr>
+	<br>
+	<h2 class="red-text" style="color: red;">TOP GAINERS & LOOSERS</h2>
+	<br>
+	<center>
+		<div class="tradingview-widget-container">
+			<div class="tradingview-widget-container__widget"></div>
+			<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
+				{
+				  "colorTheme": "dark",
+				  "dateRange": "1D",
+				  "exchange": "BSE",
+				  "showChart": true,
+				  "locale": "in",
+				  "largeChartUrl": "",
+				  "isTransparent": false,
+				  "showSymbolLogo": true,
+				  "width": "100%",
+				  "height": "900",
+				  "plotLineColorGrowing": "rgba(25, 118, 210, 1)",
+				  "plotLineColorFalling": "rgba(25, 118, 210, 1)",
+				  "gridLineColor": "rgba(42, 46, 57, 1)",
+				  "scaleFontColor": "rgba(120, 123, 134, 1)",
+				  "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
+				  "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
+				  "symbolActiveColor": "rgba(33, 150, 243, 0.12)"
+				}
+			</script>
+	</center>
+	</div>
+	<hr>
+	<br>
+	<h2 class="red-text" style="color: red;">FOREX HEATMAP</h2>
+	<br>
+	<div class="tradingview-widget-container">
+		<div class="tradingview-widget-container__widget"></div>
+		<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-forex-heat-map.js" async>
+			{
+			  "width": "100%",
+			  "height": "900",
+			  "currencies": [
+			    "EUR",
+			    "USD",
+			    "JPY",
+			    "GBP",
+			    "CHF",
+			    "AUD",
+			    "CAD",
+			    "NZD",
+			    "CNY",
+			    "TRY",
+			    "SEK",
+			    "NOK",
+			    "DKK",
+			    "ZAR",
+			    "HKD",
+			    "SGD",
+			    "THB",
+			    "MXN",
+			    "IDR",
+			    "KRW",
+			    "PLN",
+			    "ISK",
+			    "KWD",
+			    "PHP",
+			    "MYR",
+			    "INR",
+			    "TWD",
+			    "SAR",
+			    "AED",
+			    "RUB",
+			    "ILS",
+			    "ARS",
+			    "CLP",
+			    "COP",
+			    "PEN",
+			    "UYU"
+			  ],
+			  "isTransparent": false,
+			  "colorTheme": "dark",
+			  "locale": "in"
+			}
+		</script>
+	</div>
+	<hr>
+	<br>
+	<h2 class="red-text" style="color: red;">STOCK SCREENER</h2>
+	<br>
+	<div class="tradingview-widget-container">
+		<div class="tradingview-widget-container__widget"></div>
+		<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+			{
+			  "width": "100%",
+			  "height": "650",
+			  "defaultColumn": "overview",
+			  "defaultScreen": "most_capitalized",
+			  "market": "india",
+			  "showToolbar": true,
+			  "colorTheme": "dark",
+			  "locale": "in"
+			}
+		</script>
+	</div>
+	<hr>
+	<br>
+	<h2 class="red-text" style="color: red;">TOP 10 STOCKS</h2>
+	<br>
+	<div class="tradingview-widget-container">
+		<div id="tradingview_33f41"></div>
+		<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+		<script type="text/javascript">
+			new TradingView.MediumWidget(
+			  {
+			  "symbols": [
+			    [
+			      "Reliance",
+			      "BSE:RELIANCE|12M"
+			    ],
+			    [
+			      "TCS",
+			      "BSE:TCS|12M"
+			    ],
+			    [
+			      "HDFC Bank",
+			      "BSE:HDFCBANK|12M"
+			    ],
+			    [
+			      "Infosys",
+			      "BSE:INFY|12M"
+			    ],
+			    [
+			      "Hindustan Unilever",
+			      "BSE:HINDUNILVR|12M"
+			    ],
+			    [
+			      "HDFC",
+			      "BSE:HDFC|12M"
+			    ],
+			    [
+			      "ICICI Bank",
+			      "BSE:ICICIBANK|12M"
+			    ],
+			    [
+			      "Kotak Mahindra Bank",
+			      "BSE:KOTAKBANK|12M"
+			    ],
+			    [
+			      "SBI",
+			      "BSE:SBIN|12M"
+			    ],
+			    [
+			      "Bajaj Finance",
+			      "BSE:BAJFINANCE|12M"
+			    ]
+			  ],
+			  "chartOnly": false,
+			  "width": "100%",
+			  "height": "650",
+			  "locale": "in",
+			  "colorTheme": "dark",
+			  "gridLineColor": "#2A2E39",
+			  "trendLineColor": "#1976D2",
+			  "fontColor": "#787B86",
+			  "underLineColor": "rgba(55, 166, 239, 0.15)",
+			  "isTransparent": false,
+			  "autosize": false,
+			  "container_id": "tradingview_33f41"
+			}
+			  );
+		</script>
+	</div>
+	<br>
+	<div class="tradingview-widget-copyright"><a href="https://nifty50.live/" rel="noopener" target="_blank"><span class="blue-text">Nifty50.Live</span></a> | All Rights Reserved</div>
+	<script type="text/javascript" src="/script.js">
+	</script>
+</body>
+
 </html>
