@@ -4,9 +4,9 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="keywords" lang="en" content="NIFTY 50, stock exchange, technical analysis, chart analysis, intraday chart, historical stock chart, Delayed Quote, stock quote, index, NIFTY, NSE India Stock Exchange">
-	      <title>NIFTY BANK - Live Chart, Live Stock Market News | Nifty50.Live</title>
+	      <title>Market Data - Live Chart, Live Stock Market News | Nifty50.Live </title>
 	      <link rel="icon" type="image/png" href="/favicon.png" />
-	      <meta name="description" content="India's most trusted website for Stock Market Charts, Live Stock Market News, real-time chart NIFTY BANK." />
+	      <meta name="description" content="India's most trusted website for Stock Market Charts, Live Stock Market News, real-time chart of World Market. Check out what is the current status of Market Data all over world at one place." />
 	      <meta name="viewport" content="width=device-width, initial-scale=1" />
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-192099796-1"></script>
@@ -17,7 +17,9 @@
 
   gtag('config', 'UA-192099796-1');
 </script>
-        <link rel="stylesheet" href="style.css">
+
+
+       <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="navbar">
@@ -134,11 +136,139 @@
 				}
 			</script>
 		</div>
-		<h2 class="red-text" style="color: black;">NIFTY BANK CHART</h2>
-		<div class="iframe1">
-			<iframe frameborder="0" scrolling="no" src="https://tvc4.forexpros.com/init.php?family_prefix=tvc4&pair_ID=17950&interval=60&width=1150&height=650&lang_ID=1&timezone_ID=20" style="background-color: white; border: solid 1px #00B4FF; color: black; padding-top: 8px;" height="600" width="100%">
-	</center>
+		<div class="iframe4">
+		<h2 class="red-text" style="color: black;">Market Data</h2>
+		<div class="tradingview-widget-container">
+		<div class="tradingview-widget-container__widget"></div>
+		<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+			{
+			  "width": "100%",
+			  "height": "1150",
+			  "symbolsGroups": [
+			    {
+			      "name": "Indices",
+			      "originalName": "Indices",
+			      "symbols": [
+			        {
+			          "name": "FOREXCOM:SPXUSD",
+			          "displayName": "S&P 500"
+			        },
+			        {
+			          "name": "FOREXCOM:NSXUSD",
+			          "displayName": "Nasdaq 100"
+			        },
+			        {
+			          "name": "FOREXCOM:DJI",
+			          "displayName": "Dow 30"
+			        },
+			        {
+			          "name": "INDEX:NKY",
+			          "displayName": "Nikkei 225"
+			        },
+			        {
+			          "name": "INDEX:DEU30",
+			          "displayName": "DAX Index"
+			        },
+			        {
+			          "name": "FOREXCOM:UKXGBP",
+			          "displayName": "FTSE 100"
+			        }
+			      ]
+			    },
+			    {
+			      "name": "Commodities",
+			      "originalName": "Commodities",
+			      "symbols": [
+			        {
+			          "name": "CME_MINI:ES1!",
+			          "displayName": "S&P 500"
+			        },
+			        {
+			          "name": "CME:6E1!",
+			          "displayName": "Euro"
+			        },
+			        {
+			          "name": "COMEX:GC1!",
+			          "displayName": "Gold"
+			        },
+			        {
+			          "name": "NYMEX:CL1!",
+			          "displayName": "Crude Oil"
+			        },
+			        {
+			          "name": "NYMEX:NG1!",
+			          "displayName": "Natural Gas"
+			        },
+			        {
+			          "name": "CBOT:ZC1!",
+			          "displayName": "Corn"
+			        }
+			      ]
+			    },
+			    {
+			      "name": "Bonds",
+			      "originalName": "Bonds",
+			      "symbols": [
+			        {
+			          "name": "CME:GE1!",
+			          "displayName": "Eurodollar"
+			        },
+			        {
+			          "name": "CBOT:ZB1!",
+			          "displayName": "T-Bond"
+			        },
+			        {
+			          "name": "CBOT:UB1!",
+			          "displayName": "Ultra T-Bond"
+			        },
+			        {
+			          "name": "EUREX:FGBL1!",
+			          "displayName": "Euro Bund"
+			        },
+			        {
+			          "name": "EUREX:FBTP1!",
+			          "displayName": "Euro BTP"
+			        },
+			        {
+			          "name": "EUREX:FGBM1!",
+			          "displayName": "Euro BOBL"
+			        }
+			      ]
+			    },
+			    {
+			      "name": "Forex",
+			      "originalName": "Forex",
+			      "symbols": [
+			        {
+			          "name": "FX:EURUSD"
+			        },
+			        {
+			          "name": "FX:GBPUSD"
+			        },
+			        {
+			          "name": "FX:USDJPY"
+			        },
+			        {
+			          "name": "FX:USDCHF"
+			        },
+			        {
+			          "name": "FX:AUDUSD"
+			        },
+			        {
+			          "name": "FX:USDCAD"
+			        }
+			      ]
+			    }
+			  ],
+			  "showSymbolLogo": true,
+			  "colorTheme": "dark",
+			  "isTransparent": false,
+			  "locale": "in"
+			}
+		</script>
+	</div>
           </main>
         <script src="" async defer></script>
+
     </body>
 </html>
