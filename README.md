@@ -7,7 +7,9 @@ Our services are FREE, ready to use for your official purposes - We are expectin
 ### TODO LIST FOR <a href = "https://nifty50.live/">NIFTY50.Live</a>
 
 - [x] Provide different GLOBAL MARKET Charts <a href = "https://nifty50.live/international">NIFTY50.Live International Market</a>
-- [x] Add NIFTYBANK, NIFTY FUTURES (SGX Nifty) to Homepage
+- [x] Add NIFTYBANK, NIFTY FUTURES (SGX Nifty) to Homepage - <ul> <li><a href="https://nifty50.live/banknifty">NIFTY BANK Chart</a></li>
+                  <li><a href="https://nifty50.live/sgxnifty/">SGX NIFTY Chart</a></li>
+                  <li><a href="https://nifty50.live/indiavix/">India VIX Chart</a></li> </ul>
 - [x] Make the website RESPONSIVE
 - [x] Work with the navigation bar of the website
 - [ ] Convert the whole website to Angular / React
