@@ -13,10 +13,10 @@ body {
 }
 main {
   width: 100%;
-  max-width: 100%;
-  padding: 16px 32px;
-  margin: 80px auto 80px auto;
   background-color: #fbfbfb;
+  max-width: 100%;
+  padding: 16px auto;
+  margin: 80px auto 80px auto;
   border-radius: 8px;
 }
 pre strong {
