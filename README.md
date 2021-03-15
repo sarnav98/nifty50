@@ -7,9 +7,14 @@ Our services are FREE, ready to use for your official purposes - We are expectin
 ### TODO LIST FOR <a href = "https://nifty50.live/">NIFTY50.Live</a>
 
 - [x] Provide different GLOBAL MARKET Charts <a href = "https://nifty50.live/international">NIFTY50.Live International Market</a>
-- [x] Add NIFTYBANK, NIFTY FUTURES (SGX Nifty) to Homepage - <ul> <li><a href="https://nifty50.live/banknifty">NIFTY BANK Chart</a></li>
+- [x] Add NIFTYBANK, NIFTY FUTURES (SGX Nifty) to Homepage - <li><a href="https://nifty50.live/banknifty">NIFTY BANK Chart</a></li>
                   <li><a href="https://nifty50.live/sgxnifty/">SGX NIFTY Chart</a></li>
-                  <li><a href="https://nifty50.live/indiavix/">India VIX Chart</a></li> </ul>
+                  <li><a href="https://nifty50.live/indiavix/">India VIX Chart</a></li>
+- [x] Add INTERNATIONAL CHARTS, WORLD MARKET, MARKET DATA, FOREX HEATMAP, STOCK SCREENER (NSE / BSE) - <li><a href="https://nifty50.live/international/">International Charts</a></li>
+              <li><a href="https://nifty50.live/worldmarket/">World Market</a></li>
+           <li><a href="https://nifty50.live/marketdata/">Market Data</a></li>
+              <li><a href="https://nifty50.live/forexheatmap/">Forex Heatmap</a></li>
+             <li> <a href="https://nifty50.live/stockscreener/">Stock Screener</a></li>
 - [x] Make the website RESPONSIVE
 - [x] Work with the navigation bar of the website
 - [ ] Convert the whole website to Angular / React
