@@ -9,7 +9,7 @@ Our services are FREE, ready to use for your official purposes - We are expectin
 - [x] Provide different GLOBAL MARKET Charts <a href = "https://nifty50.live/international">NIFTY50.Live International Market</a>
 - [x] Add NIFTYBANK, NIFTY FUTURES (SGX Nifty) to Homepage
 - [x] Make the website RESPONSIVE
-- [ ] Work with the navigation bar of the website
+- [x] Work with the navigation bar of the website
 - [ ] Convert the whole website to Angular / React
 - [ ] Add Cryptocurrency Page
 - [ ] Add NIFTY Heatmap
