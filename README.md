@@ -3,6 +3,8 @@ Official Repo of <a href = "https://nifty50.live/">NIFTY50.Live</a>
 
 India's most trusted website for Charts, Live Stock Market News, Real-time charts, Forex Rates, Stock Screener, World Market overview, Forex Heatmap and much more just at your fingertip.
 
+![QR Code](https://raw.githubusercontent.com/sarnav98/nifty50/main/qrcode_nifty50.live.png)
+
 We at Nify50.Live are trying to give you the best experience of looking at charts, and also checking out different positions of the GLOBAL MARKET at any point of time.
 Our services are FREE, ready to use for your official purposes - We are expecting to grow exponentially and help you make money out of Indian Stock Market.
 
