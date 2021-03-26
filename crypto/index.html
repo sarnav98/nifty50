@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      Cryptocurrency - Live Chart, Live Stock Market News | Nifty50.Live
+    </title>
+    <meta
+      name="description"
+      content="Top cryptocurrency prices and charts, listed by market capitalization. See the up-to-date total cryptocurrency market capitalization ✔️ excluding Bitcoin ✔️ top ten cryptoassets by percentage of total market cap. "
+    />
+    <link type="text/css" rel="stylesheet" href="layout.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <script
+      type="text/javascript"
+      src="https://s3.tradingview.com/tv.js"
+    ></script>
+    <script type="text/javascript" src="cookie.js"></script>
+    <script type="text/javascript" src="widget.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-192099796-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-192099796-1");
+    </script>
+  </head>
+  <body>
+    <div class="col" id="list" style="width: 19%"></div>
+
+    <div class="col" style="width: 80%">
+      <form>
+        <p>
+          <label>Charts: </label>
+          <select class="dropbox" id="dropbox_1"></select>
+          <select class="dropbox" id="dropbox_2"></select>
+          <select class="dropbox" id="dropbox_3"></select>
+          <select class="dropbox" id="dropbox_4"></select>
+        </p>
+        <p>
+          <label>Time Interval: </label>
+          <button class="time" onclick="setTimeInterval(1)"><b>1m</b></button>
+          <button class="time" onclick="setTimeInterval(3)"><b>3m</b></button>
+          <button class="time" onclick="setTimeInterval(5)"><b>5m</b></button>
+          <button class="time" onclick="setTimeInterval(15)"><b>15m</b></button>
+          <button class="time" onclick="setTimeInterval(30)"><b>30m</b></button>
+          <button class="time" onclick="setTimeInterval(60)"><b>1h</b></button>
+          <button class="time" onclick="setTimeInterval(240)"><b>4h</b></button>
+          <button class="time" onclick="setTimeInterval('D')"><b>1d</b></button>
+          <button class="time" onclick="setTimeInterval('W')"><b>1w</b></button>
+        </p>
+      </form>
+
+      <div class="row">
+        <div class="tile" id="tradingview_0"></div>
+        <div class="tile" id="tradingview_1"></div>
+      </div>
+      <div class="row">
+        <div class="tile" id="tradingview_2"></div>
+        <div class="tile" id="tradingview_3"></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
