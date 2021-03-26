@@ -19,10 +19,10 @@ Our services are FREE, ready to use for your official purposes - We are expectin
            <li><a href="https://nifty50.live/marketdata/">Market Data</a></li>
               <li><a href="https://nifty50.live/forexheatmap/">Forex Heatmap</a></li>
              <li> <a href="https://nifty50.live/stockscreener/">Stock Screener</a></li>
+- [x] Add Cryptocurrency Page - <li><a href="https://nifty50.live/crypto/">Cryptocurrency Charts</a></li>
 - [x] Make the website RESPONSIVE
 - [x] Work with the navigation bar of the website
 - [ ] Convert the whole website to Angular / React
-- [ ] Add Cryptocurrency Page
 - [ ] Add NIFTY Heatmap
 
 NIFTY 50 is the flagship index on the National Stock Exchange of India Ltd. (NSE). The Index tracks the behavior of a portfolio of blue chip companies, the largest and most liquid Indian securities. It includes 50 of the approximately 1600 companies listed on the NSE, captures approximately 65% of its float-adjusted market capitalization and is a true reflection of the Indian stock market.
