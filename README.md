@@ -29,4 +29,3 @@ Our services are FREE, ready to use for your official purposes - We are expectin
 NIFTY 50 is the flagship index on the National Stock Exchange of India Ltd. (NSE). The Index tracks the behavior of a portfolio of blue chip companies, the largest and most liquid Indian securities. It includes 50 of the approximately 1600 companies listed on the NSE, captures approximately 65% of its float-adjusted market capitalization and is a true reflection of the Indian stock market.
 
 The NIFTY 50 covers major sectors of the Indian economy and offers investment managers exposure to the Indian market in one efficient portfolio. The Index has been trading since April 1996 and is well suited for benchmarking, index funds and index-based derivatives.
-
