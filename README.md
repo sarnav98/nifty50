@@ -21,12 +21,11 @@ Our services are FREE, ready to use for your official purposes - We are expectin
              <li> <a href="https://nifty50.live/stockscreener/">Stock Screener</a></li>
 - [x] Add Cryptocurrency Page - 
 <li><a href="https://nifty50.live/crypto/">Cryptocurrency Charts</a></li>
+- [x] Make the website RESPONSIVE
+- [x] Work with the navigation bar of the website
 - [x] Add Commodities Pages - <li><a href="https://nifty50.live/usd-inr/">Live USD / INR Chart</a></li>
 <li><a href="https://nifty50.live/gold-chart/">Live Gold Chart</a></li>
 <li><a href="https://nifty50.live/silver-chart/">Live Silver Chart</a></li>
-
-- [x] Make the website RESPONSIVE
-- [x] Work with the navigation bar of the website
 - [ ] Convert the whole website to Angular / React
 - [ ] Add NIFTY Heatmap
 
