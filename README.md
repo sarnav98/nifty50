@@ -23,7 +23,6 @@ Our services are FREE, ready to use for your official purposes - We are expectin
 <li><a href="https://nifty50.live/crypto/">Cryptocurrency Charts</a></li>
 - [x] Make the website RESPONSIVE
 - [x] Work with the navigation bar of the website
-- [x] Add Commodity Pages
 - [ ] Convert the whole website to Angular / React
 - [ ] Add NIFTY Heatmap
 
