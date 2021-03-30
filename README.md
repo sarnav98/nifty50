@@ -19,8 +19,7 @@ Our services are FREE, ready to use for your official purposes - We are expectin
            <li><a href="https://nifty50.live/marketdata/">Market Data</a></li>
               <li><a href="https://nifty50.live/forexheatmap/">Forex Heatmap</a></li>
              <li> <a href="https://nifty50.live/stockscreener/">Stock Screener</a></li>
-- [x] Add Cryptocurrency Page - 
-<li><a href="https://nifty50.live/crypto/">Cryptocurrency Charts</a></li>
+- [x] Add Cryptocurrency Page - <li><a href="https://nifty50.live/crypto/">Cryptocurrency Charts</a></li>
 - [x] Make the website RESPONSIVE
 - [x] Work with the navigation bar of the website
 - [ ] Convert the whole website to Angular / React
