@@ -20,7 +20,8 @@ Our services are FREE, ready to use for your official purposes - We are expectin
               <li><a href="https://nifty50.live/forexheatmap/">Forex Heatmap</a></li>
              <li> <a href="https://nifty50.live/stockscreener/">Stock Screener</a></li>
 - [x] Add Cryptocurrency Page - <li><a href="https://nifty50.live/crypto/">Cryptocurrency Charts</a></li>
-- [x] Add Commodities Pages - <li><a href="https://nifty50.live/usd-inr/">Live USD / INR Chart</a></li>
+- [x] Add Commodities Pages - 
+<li><a href="https://nifty50.live/usd-inr/">Live USD / INR Chart</a></li>
 <li><a href="https://nifty50.live/gold-chart/">Live Gold Chart</a></li>
 <li><a href="https://nifty50.live/silver-chart/">Live Silver Chart</a></li>
 - [x] Make the website RESPONSIVE
